@@ -1,0 +1,1133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap");
+body {
+  font-family: "Montserrat Alternates", "Montserrat", "League Spartan", "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .container-web .squaremart {
+    background-image: url("../img/Oval 22.svg");
+    background-size: contain; /* Adjust to your preference */
+    background-position: 10% center; /* Position for the first image */
+    padding: 0;
+    margin: 0;
+  }
+  .container-web .squaremart .header {
+    background-image: url("../img/Oval 22.svg");
+    background-size: contain; /* Adjust to your preference */
+    background-position: 10% center; /* Position for the first image */
+    background-repeat: no-repeat;
+    color: #333;
+    padding: 0 20px;
+    box-shadow: 0 1px 0 1px #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    right: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container-web .squaremart .header .squaremart-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .container-web .squaremart .header .other-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .container-web .squaremart .header .other-page ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  .container-web .squaremart .header .other-page ul a {
+    font-family: "League Spartan";
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: #333;
+  }
+  .container-web .squaremart .header .signing-page .sign-in {
+    margin-left: 20px;
+    display: inline;
+  }
+  .container-web .squaremart .header .signing-page .sign-in a {
+    font-family: "League Spartan";
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 0 1rem;
+    font-size: 17px;
+    text-decoration: none;
+    color: #333;
+  }
+  .container-web .squaremart .header .signing-page .sign-in .sign-up {
+    border: 1px solid green;
+    color: green;
+    line-height: 2rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+  }
+  .container-web .squaremart .header .signing-page .sign-in .sign-up:hover {
+    color: white;
+    background-color: green;
+  }
+  .container-web .squaremart .main-page {
+    background-image: url("../img/Oval 22.svg");
+    background-size: contain; /* Adjust to your preference */
+    background-position: 10% center; /* Position for the first image */
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    padding: 5rem 0rem;
+  }
+  .container-web .squaremart .main-page .page-content {
+    text-align: center;
+  }
+  .container-web .squaremart .main-page .page-content h2 {
+    font-family: "Montserrat Alternates";
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+  }
+  .container-web .squaremart .main-page .page-content h2 span {
+    color: rgb(38, 173, 35);
+  }
+  .container-web .squaremart .main-page .page-content p {
+    font-family: "League Spartan";
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .container-web .squaremart .main-page .e-icon {
+    margin-top: 13rem;
+  }
+  .container-web .our-goals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 1rem;
+  }
+  .container-web .our-goals .fast-reliable, .container-web .our-goals .online-wallet, .container-web .our-goals .gift-cards {
+    justify-self: center;
+  }
+  .container-web .our-goals .fast-reliable .card-logo, .container-web .our-goals .online-wallet .card-logo, .container-web .our-goals .gift-cards .card-logo {
+    background: rgba(38, 173, 35, 0.1019607843);
+    margin: 0 7rem;
+    line-height: 7rem;
+  }
+  .container-web .our-goals .fast-reliable .card-logo img, .container-web .our-goals .online-wallet .card-logo img, .container-web .our-goals .gift-cards .card-logo img {
+    width: 80%;
+  }
+  .container-web .our-goals .fast-reliable .fast-logo, .container-web .our-goals .fast-reliable .wallet-logo, .container-web .our-goals .online-wallet .fast-logo, .container-web .our-goals .online-wallet .wallet-logo, .container-web .our-goals .gift-cards .fast-logo, .container-web .our-goals .gift-cards .wallet-logo {
+    background: rgba(38, 173, 35, 0.1019607843);
+    margin: 0 7rem;
+    line-height: 7rem;
+  }
+  .container-web .our-goals .fast-reliable .fast-logo img, .container-web .our-goals .fast-reliable .wallet-logo img, .container-web .our-goals .online-wallet .fast-logo img, .container-web .our-goals .online-wallet .wallet-logo img, .container-web .our-goals .gift-cards .fast-logo img, .container-web .our-goals .gift-cards .wallet-logo img {
+    width: 50%;
+  }
+  .container-web .our-services {
+    background-image: url("../img/Oval 22.svg");
+    background-size: contain; /* Adjust to your preference */
+    background-position: 10% center; /* Position for the first image */
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+  .container-web .our-services h1 {
+    font-family: "Montserrat Alternates";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .container-web .our-services .product-category {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .container-web .our-services .product-category #services {
+    border: 3px solid #E0E0E0;
+    border-radius: 1rem;
+  }
+  .container-web .our-services .product-category #services .shipping-illustration img {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .container-web .our-services .product-category #services .title {
+    padding: 0 1rem;
+  }
+  .container-web .our-services .product-category #services .title h2 {
+    font-family: "Montserrat Alternates";
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    font-size: 13px;
+    text-align: left;
+  }
+  .container-web .our-services .product-category #services .desc {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    padding: 0 1rem;
+    text-align: left;
+  }
+  .container-web .our-services .product-category #services .get-started {
+    padding: 2rem 1rem;
+  }
+  .container-web .our-services .product-category #services .get-started a {
+    text-decoration: none;
+    background: #26AD23;
+    color: white;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    padding: 1rem;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    transition: ease-in-out;
+  }
+  .container-web .our-services .product-category #services .get-started a:hover {
+    transform: scale(0.9);
+  }
+  .container-web .market-place {
+    background-image: url("../img/Oval 22.svg");
+    background-size: contain; /* Adjust to your preference */
+    background-position: 10% center; /* Position for the first image */
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+  .container-web .market-place h1 {
+    font-family: "Montserrat Alternates";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .container-web .market-place .all-product {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .container-web .market-place .all-product .market-prodct img {
+    width: 256px;
+    height: 342px;
+  }
+  .container-web .market-place .all-product .market-prodct .product-details span {
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6980392157);
+  }
+  .container-web .market-place .all-product .market-prodct .product-details h3 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  .container-web .market-place .all-product .market-prodct .product-details p {
+    font-family: "League Spartan";
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202020;
+  }
+  .container-web .market-place .all-product .market-prodct .product-details h4 {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #284697;
+  }
+  .container-web .trusted-customers {
+    background-image: url("../img/Oval 22.svg");
+    background-size: contain; /* Adjust to your preference */
+    background-position: 10% center; /* Position for the first image */
+    background: rgba(225, 236, 225, 0.5);
+    margin: 1rem 0;
+  }
+  .container-web .trusted-customers .customer-testify {
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  .container-web .trusted-customers .customer-testify h2 {
+    font-family: "Montserrat Alternates";
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .container-web .trusted-customers .customer-testify p {
+    font-family: "League Spartan";
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .container-web .trusted-customers .memo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+  }
+  .container-web .trusted-customers .memo .customer-memo {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 0.5rem;
+    padding: 0 1rem;
+    border-radius: 15px;
+  }
+  .container-web .trusted-customers .memo .customer-memo .customer-comment p {
+    font-family: "League Spartan";
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .container-web .trusted-customers .memo .customer-memo .customer-details {
+    display: grid;
+    grid-template-columns: 15% 85%;
+  }
+  .container-web .trusted-customers .memo .customer-memo .customer-details img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+  }
+  .container-web .trusted-customers .memo .customer-memo .customer-details h4 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+  }
+  .container-web .footer {
+    background: rgba(17, 66, 109, 0.8);
+    margin: 3rem 0 0 0;
+    padding: 0;
+  }
+  .container-web .footer footer {
+    padding: 3rem 0 0 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem;
+  }
+  .container-web .footer footer .features, .container-web .footer footer .company, .container-web .footer footer .resources, .container-web .footer footer .support {
+    justify-self: center;
+  }
+  .container-web .footer footer .features h2, .container-web .footer footer .company h2, .container-web .footer footer .resources h2, .container-web .footer footer .support h2 {
+    padding: 0 2rem;
+    color: white;
+    font-family: "League Spartan";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+  .container-web .footer footer .features ul li, .container-web .footer footer .company ul li, .container-web .footer footer .resources ul li, .container-web .footer footer .support ul li {
+    list-style-type: none;
+    padding: 0.75rem 0;
+  }
+  .container-web .footer footer .features ul li a, .container-web .footer footer .company ul li a, .container-web .footer footer .resources ul li a, .container-web .footer footer .support ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "League Spartan";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+  }
+  .container-web .footer .follow-up {
+    background: rgba(17, 66, 109, 0.8);
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container-web .footer .follow-up .social-media {
+    justify-self: center;
+  }
+  .container-web .footer .follow-up .social-media a {
+    padding: 0.25rem 2rem;
+  }
+  .container-web .footer .follow-up .social-media a img {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 1rem 1rem;
+  }
+  .container-web .footer .follow-up .copyright {
+    justify-self: center;
+    color: #fff;
+    padding: 2rem 0;
+  }
+}
+.container-web .reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.container-web .reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+.container-web .squaremart {
+  background-image: url("../img/Oval 22.svg");
+  background-size: contain; /* Adjust to your preference */
+  background-position: 10% center; /* Position for the first image */
+  padding: 0;
+  margin: 0;
+}
+.container-web .squaremart .header {
+  background-image: url("../img/Oval 22.svg");
+  background-size: contain; /* Adjust to your preference */
+  background-position: 10% center; /* Position for the first image */
+  background-repeat: no-repeat;
+  color: #333;
+  padding: 0 20px;
+  box-shadow: 0 1px 0 1px #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  right: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-web .squaremart .header .squaremart-logo img {
+  max-width: 100%;
+  height: auto;
+}
+.container-web .squaremart .header .other-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container-web .squaremart .header .other-page ul li {
+  display: inline;
+  margin-left: 20px;
+}
+.container-web .squaremart .header .other-page ul a {
+  font-family: "League Spartan";
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  color: #333;
+}
+.container-web .squaremart .header .signing-page .sign-in {
+  margin-left: 20px;
+  display: inline;
+}
+.container-web .squaremart .header .signing-page .sign-in a {
+  font-family: "League Spartan";
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  padding: 0 1rem;
+  font-size: 17px;
+  text-decoration: none;
+  color: #333;
+}
+.container-web .squaremart .header .signing-page .sign-in .sign-up {
+  border: 1px solid green;
+  color: green;
+  line-height: 2rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+.container-web .squaremart .header .signing-page .sign-in .sign-up:hover {
+  color: white;
+  background-color: green;
+}
+.container-web .squaremart .main-page {
+  background-image: url("../img/Oval 22.svg");
+  background-size: contain; /* Adjust to your preference */
+  background-position: 10% center; /* Position for the first image */
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  padding: 5rem 0rem;
+}
+.container-web .squaremart .main-page .page-content {
+  text-align: center;
+}
+.container-web .squaremart .main-page .page-content h2 {
+  font-family: "Montserrat Alternates";
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+}
+.container-web .squaremart .main-page .page-content h2 span {
+  color: rgb(38, 173, 35);
+}
+.container-web .squaremart .main-page .page-content p {
+  font-family: "League Spartan";
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.container-web .squaremart .main-page .e-icon {
+  margin-top: 13rem;
+}
+.container-web .our-goals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin: 1rem;
+}
+.container-web .our-goals .fast-reliable, .container-web .our-goals .online-wallet, .container-web .our-goals .gift-cards {
+  justify-self: center;
+}
+.container-web .our-goals .fast-reliable .card-logo, .container-web .our-goals .online-wallet .card-logo, .container-web .our-goals .gift-cards .card-logo {
+  background: rgba(38, 173, 35, 0.1019607843);
+  margin: 0 7rem;
+  line-height: 7rem;
+}
+.container-web .our-goals .fast-reliable .card-logo img, .container-web .our-goals .online-wallet .card-logo img, .container-web .our-goals .gift-cards .card-logo img {
+  width: 80%;
+}
+.container-web .our-goals .fast-reliable .fast-logo, .container-web .our-goals .fast-reliable .wallet-logo, .container-web .our-goals .online-wallet .fast-logo, .container-web .our-goals .online-wallet .wallet-logo, .container-web .our-goals .gift-cards .fast-logo, .container-web .our-goals .gift-cards .wallet-logo {
+  background: rgba(38, 173, 35, 0.1019607843);
+  margin: 0 7rem;
+  line-height: 7rem;
+}
+.container-web .our-goals .fast-reliable .fast-logo img, .container-web .our-goals .fast-reliable .wallet-logo img, .container-web .our-goals .online-wallet .fast-logo img, .container-web .our-goals .online-wallet .wallet-logo img, .container-web .our-goals .gift-cards .fast-logo img, .container-web .our-goals .gift-cards .wallet-logo img {
+  width: 50%;
+}
+.container-web .our-services {
+  background-image: url("../img/Oval 22.svg");
+  background-size: contain; /* Adjust to your preference */
+  background-position: 10% center; /* Position for the first image */
+  padding: 0 1rem;
+  margin: 0 1rem;
+}
+.container-web .our-services h1 {
+  font-family: "Montserrat Alternates";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.container-web .our-services .product-category {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+.container-web .our-services .product-category #services {
+  border: 3px solid #E0E0E0;
+  border-radius: 1rem;
+}
+.container-web .our-services .product-category #services .shipping-illustration img {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.container-web .our-services .product-category #services .title {
+  padding: 0 1rem;
+}
+.container-web .our-services .product-category #services .title h2 {
+  font-family: "Montserrat Alternates";
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+  font-size: 13px;
+  text-align: left;
+}
+.container-web .our-services .product-category #services .desc {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  padding: 0 1rem;
+  text-align: left;
+}
+.container-web .our-services .product-category #services .get-started {
+  padding: 2rem 1rem;
+}
+.container-web .our-services .product-category #services .get-started a {
+  text-decoration: none;
+  background: #26AD23;
+  color: white;
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  padding: 1rem;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: ease-in-out;
+}
+.container-web .our-services .product-category #services .get-started a:hover {
+  transform: scale(0.9);
+}
+.container-web .market-place {
+  background-image: url("../img/Oval 22.svg");
+  background-size: contain; /* Adjust to your preference */
+  background-position: 10% center; /* Position for the first image */
+  padding: 0 1rem;
+  margin: 0 1rem;
+}
+.container-web .market-place h1 {
+  font-family: "Montserrat Alternates";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.container-web .market-place .all-product {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.container-web .market-place .all-product .market-prodct img {
+  width: 256px;
+  height: 342px;
+}
+.container-web .market-place .all-product .market-prodct .product-details span {
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+.container-web .market-place .all-product .market-prodct .product-details h3 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.container-web .market-place .all-product .market-prodct .product-details p {
+  font-family: "League Spartan";
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #202020;
+}
+.container-web .market-place .all-product .market-prodct .product-details h4 {
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #284697;
+}
+.container-web .trusted-customers {
+  background-image: url("../img/Oval 22.svg");
+  background-size: contain; /* Adjust to your preference */
+  background-position: 10% center; /* Position for the first image */
+  background: rgba(225, 236, 225, 0.5);
+  margin: 1rem 0;
+}
+.container-web .trusted-customers .customer-testify {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.container-web .trusted-customers .customer-testify h2 {
+  font-family: "Montserrat Alternates";
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.container-web .trusted-customers .customer-testify p {
+  font-family: "League Spartan";
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.container-web .trusted-customers .memo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+}
+.container-web .trusted-customers .memo .customer-memo {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 0.5rem;
+  padding: 0 1rem;
+  border-radius: 15px;
+}
+.container-web .trusted-customers .memo .customer-memo .customer-comment p {
+  font-family: "League Spartan";
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.container-web .trusted-customers .memo .customer-memo .customer-details {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.container-web .trusted-customers .memo .customer-memo .customer-details img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.container-web .trusted-customers .memo .customer-memo .customer-details h4 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.container-web .footer {
+  background: rgba(17, 66, 109, 0.8);
+  margin: 3rem 0 0 0;
+  padding: 0;
+}
+.container-web .footer footer {
+  padding: 3rem 0 0 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem;
+}
+.container-web .footer footer .features, .container-web .footer footer .company, .container-web .footer footer .resources, .container-web .footer footer .support {
+  justify-self: center;
+}
+.container-web .footer footer .features h2, .container-web .footer footer .company h2, .container-web .footer footer .resources h2, .container-web .footer footer .support h2 {
+  padding: 0 2rem;
+  color: white;
+  font-family: "League Spartan";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.container-web .footer footer .features ul li, .container-web .footer footer .company ul li, .container-web .footer footer .resources ul li, .container-web .footer footer .support ul li {
+  list-style-type: none;
+  padding: 0.75rem 0;
+}
+.container-web .footer footer .features ul li a, .container-web .footer footer .company ul li a, .container-web .footer footer .resources ul li a, .container-web .footer footer .support ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "League Spartan";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+}
+.container-web .footer .follow-up {
+  background: rgba(17, 66, 109, 0.8);
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.container-web .footer .follow-up .social-media {
+  justify-self: center;
+}
+.container-web .footer .follow-up .social-media a {
+  padding: 0.25rem 2rem;
+}
+.container-web .footer .follow-up .social-media a img {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 1rem 1rem;
+}
+.container-web .footer .follow-up .copyright {
+  justify-self: center;
+  color: #fff;
+  padding: 2rem 0;
+}
+@media screen and (max-width: 1200px) {
+  .container-web .squaremart {
+    background-image: url("../img/bg.png");
+    padding: 0;
+    margin: 0;
+  }
+  .container-web .squaremart .header .other-page ul li {
+    margin: 0;
+    text-align: center;
+  }
+  .container-web .squaremart .header .other-page ul a {
+    padding: 10px;
+  }
+  .container-web .squaremart .header .other-page.active ul {
+    display: flex;
+  }
+  .container-web .squaremart .main-page {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    margin: 0;
+  }
+  .container-web .squaremart .main-page .bitcoin-icon img {
+    height: 12rem;
+    width: 12rem;
+  }
+  .container-web .squaremart .main-page .page-content {
+    text-align: center;
+  }
+  .container-web .squaremart .main-page .page-content h2 {
+    font-family: "Montserrat Alternates";
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .container-web .squaremart .main-page .page-content h2 span {
+    color: rgb(38, 173, 35);
+  }
+  .container-web .squaremart .main-page .page-content p {
+    font-family: "League Spartan";
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .container-web .squaremart .main-page .e-icon {
+    margin-top: 12rem;
+  }
+  .container-web .squaremart .main-page .e-icon img {
+    height: 6rem;
+    width: 6rem;
+  }
+  .container-web .our-goals {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin: 1rem;
+  }
+  .container-web .our-goals .fast-reliable, .container-web .our-goals .online-wallet, .container-web .our-goals .gift-cards {
+    justify-self: center;
+    padding: 1rem 0;
+  }
+  .container-web .our-goals .fast-reliable .fast-logo, .container-web .our-goals .fast-reliable .wallet-logo, .container-web .our-goals .fast-reliable .card-logo, .container-web .our-goals .online-wallet .fast-logo, .container-web .our-goals .online-wallet .wallet-logo, .container-web .our-goals .online-wallet .card-logo, .container-web .our-goals .gift-cards .fast-logo, .container-web .our-goals .gift-cards .wallet-logo, .container-web .our-goals .gift-cards .card-logo {
+    background: rgba(38, 173, 35, 0.1019607843);
+    margin: 0 12rem;
+    line-height: 9rem;
+  }
+  .container-web .our-goals .fast-reliable .fast-logo img, .container-web .our-goals .fast-reliable .wallet-logo img, .container-web .our-goals .fast-reliable .card-logo img, .container-web .our-goals .online-wallet .fast-logo img, .container-web .our-goals .online-wallet .wallet-logo img, .container-web .our-goals .online-wallet .card-logo img, .container-web .our-goals .gift-cards .fast-logo img, .container-web .our-goals .gift-cards .wallet-logo img, .container-web .our-goals .gift-cards .card-logo img {
+    width: 100%;
+  }
+  .container-web .our-services {
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+  .container-web .our-services h1 {
+    font-family: "Montserrat Alternates";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .container-web .our-services .product-category {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    margin: 0;
+  }
+  .container-web .our-services .product-category .shipping, .container-web .our-services .product-category .gift-card {
+    margin: 0;
+    padding: 0;
+    border: 3px solid #E0E0E0;
+    border-radius: 1rem;
+  }
+  .container-web .our-services .product-category .shipping .shipping-illustration img, .container-web .our-services .product-category .shipping .card-illustration img, .container-web .our-services .product-category .gift-card .shipping-illustration img, .container-web .our-services .product-category .gift-card .card-illustration img {
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .container-web .our-services .product-category .shipping .title, .container-web .our-services .product-category .gift-card .title {
+    padding: 0 1rem;
+  }
+  .container-web .our-services .product-category .shipping .title h2, .container-web .our-services .product-category .gift-card .title h2 {
+    font-family: "Montserrat Alternates";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .container-web .our-services .product-category .shipping .desc, .container-web .our-services .product-category .gift-card .desc {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    padding: 0 1rem;
+    text-align: left;
+  }
+  .container-web .our-services .product-category .shipping .get-started, .container-web .our-services .product-category .gift-card .get-started {
+    padding: 2rem 1rem;
+  }
+  .container-web .our-services .product-category .shipping .get-started a, .container-web .our-services .product-category .gift-card .get-started a {
+    text-decoration: none;
+    background: #26AD23;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .container-web .our-services .product-category .wallet, .container-web .our-services .product-category .shop {
+    margin: 1rem 0.5rem;
+    border: 3px solid #E0E0E0;
+    border-radius: 1rem;
+  }
+  .container-web .our-services .product-category .wallet .wallet-illustration img, .container-web .our-services .product-category .wallet .shop-illustration img, .container-web .our-services .product-category .shop .wallet-illustration img, .container-web .our-services .product-category .shop .shop-illustration img {
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .container-web .our-services .product-category .wallet .title, .container-web .our-services .product-category .shop .title {
+    padding: 0 1rem;
+  }
+  .container-web .our-services .product-category .wallet .title h2, .container-web .our-services .product-category .shop .title h2 {
+    font-family: "Montserrat Alternates";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .container-web .our-services .product-category .wallet .desc, .container-web .our-services .product-category .shop .desc {
+    padding: 0 1rem;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .container-web .our-services .product-category .wallet .get-started, .container-web .our-services .product-category .shop .get-started {
+    padding: 2rem 1rem;
+  }
+  .container-web .our-services .product-category .wallet .get-started a, .container-web .our-services .product-category .shop .get-started a {
+    text-decoration: none;
+    background: #26AD23;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .container-web .market-place {
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+  .container-web .market-place h1 {
+    font-family: "Montserrat Alternates";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .container-web .market-place .all-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container-web .market-place .all-product .market-product {
+    padding: 0 0.5rem;
+  }
+  .container-web .market-place .all-product .market-product img {
+    width: 100%;
+    height: 15rem;
+  }
+  .container-web .market-place .all-product .market-product .product-details span {
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6980392157);
+  }
+  .container-web .market-place .all-product .market-product .product-details h3 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  .container-web .market-place .all-product .market-product .product-details p {
+    font-family: "Montserrat Alternates";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202020;
+  }
+  .container-web .market-place .all-product .market-product .product-details h4 {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #284697;
+  }
+}/*# sourceMappingURL=style.css.map */
